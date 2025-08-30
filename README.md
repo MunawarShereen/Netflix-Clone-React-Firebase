@@ -1,2 +1,15 @@
 # Netflix-Clone-React-Firebase
-Netflix Clone built with React.js and Firebase. Features movie browsing with scrollable cards, Firebase authentication (Email/Google), responsive UI, and React Router navigation. A learning project showcasing modern frontend development and API integration.
+A Netflix-inspired web application built with React.js and styled with CSS/Tailwind.
+Features include:
+
+📺 Movie & TV Show Browsing with horizontal scrollable title cards
+
+🔑 Firebase Authentication (Login / Signup with Email & Google)
+
+🖼️ Dynamic Content Rendering with reusable components
+
+🎨 Responsive UI styled with modern CSS practices
+
+⚡ Fast Navigation using React Router
+
+This project was created for learning purposes, focusing on frontend development, authentication, and API integration.
