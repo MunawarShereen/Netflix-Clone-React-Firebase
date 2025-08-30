@@ -10,3 +10,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# Netflix-Clone-React-Firebase
+A Netflix-inspired web application built with React.js and styled with CSS/Tailwind.
+Features include:
+
+📺 Movie & TV Show Browsing with horizontal scrollable title cards
+
+🔑 Firebase Authentication (Login / Signup with Email & Google)
+
+🖼️ Dynamic Content Rendering with reusable components
+
+🎨 Responsive UI styled with modern CSS practices
+
+⚡ Fast Navigation using React Router
+
+This project was created for learning purposes, focusing on frontend development, authentication, and API integration.
+
