@@ -1,0 +1,167 @@
+.hero {
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px; 
+  background: linear-gradient(to top, #141414, transparent);
+  pointer-events: none;
+}
+
+.banner-img {
+  width: 100%;
+  height: 99vh;
+  object-fit: cover;
+}
+
+.page1 {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-caption {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+  padding-left: 4%;
+  color: white;
+}
+
+.caption-img {
+  width: 90%;
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.hero-caption p {
+  width: 600px;
+  max-width: 90%;   /* make responsive */
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: flex;
+  flex-wrap: wrap;  /* allow wrapping on small screens */
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.hero-btn .btn img {
+  width: 22px;
+}
+
+.hero-btn .btn {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.hero-btn .btn.dark-btn {
+  color: #fff;
+  background: #6d6d6d;
+}
+
+.hero-btn .btn:hover {
+  background: #ffffffbf;
+}
+
+.hero-btn .btn.dark-btn:hover {
+  background: #6d6d6dbf;
+}
+
+.page2 {
+  width: 100%;
+  height: 100%;
+  background: #141414;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* 🔥 Responsive Media Queries */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .hero-caption p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .caption-img {
+    max-width: 320px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .banner-img {
+    height: 70vh;
+  }
+
+  .hero-caption {
+    bottom: 15%;
+    padding-left: 5%;
+  }
+
+  .caption-img {
+    max-width: 250px;
+  }
+
+  .hero-caption p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .hero-btn {
+    flex-direction: column;   /* stack buttons vertically */
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .hero-btn .btn {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .banner-img {
+    height: 60vh;
+  }
+
+  .hero-caption {
+    bottom: 20%;
+    padding-left: 3%;
+  }
+
+  .caption-img {
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+
+  .hero-caption p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .hero-btn .btn {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+}
