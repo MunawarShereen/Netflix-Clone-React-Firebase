@@ -1,4 +1,5 @@
 # Netflix-Clone-React-Firebase
+
 A Netflix-inspired web application built with React.js and styled with CSS/Tailwind.
 Features include:
 
